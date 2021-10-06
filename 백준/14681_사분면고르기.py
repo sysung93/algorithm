@@ -1,14 +1,13 @@
-x = input()
-y = input()
+import sys
 
-x = int(x)
-y = int(y)
+x = int(sys.stdin.readline())
+y = int(sys.stdin.readline())
 
-if 0 < x and 0 < y:
-    print(1)
-elif 0 > x and 0 < y:
-    print(2)
-elif 0 > x and 0 > y:
-    print(3)
-elif 0 < x and 0 > y:
-    print(4)
+if x > 0 and y > 0:
+    print("1")
+elif x < 0 and y > 0:
+    print("2")
+elif x < 0 and y < 0:
+    print("3")
+else:
+    print("4")
