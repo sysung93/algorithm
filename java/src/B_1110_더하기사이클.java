@@ -9,8 +9,6 @@ public class B_1110_더하기사이클 {
 
         int N = Integer.parseInt(br.readLine());
 
-        StringTokenizer st;
-
         int cnt = 0;
         int copy = N;
 
